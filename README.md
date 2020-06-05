@@ -14,6 +14,27 @@ Android 开发工具类，助力快速开发
 + [弹出自定义支付密码输入框-InputPswDemo](https://github.com/MZCretin/InputPswDemo)
 + [安卓常用工具集成-AndroidUtils](https://github.com/MZCretin/AndroidUtilsProject)
 
+## INSTALL
+
+[![](https://jitpack.io/v/MZCretin/AndroidUtilsProject.svg)](https://jitpack.io/#MZCretin/AndroidUtilsProject)
+
++ Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
++ Step 2. Add the dependency
+```
+	dependencies {
+	        implementation 'com.github.MZCretin:AndroidUtilsProject:Tag'
+	}
+```
+
 ## APIS
 
 ### 字符串处理 StringUtils.java
